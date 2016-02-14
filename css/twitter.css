@@ -1,0 +1,67 @@
+
+body {
+// padding-left:40px;
+// padding-right:40px;
+  color: #5a5a5a;
+ max-width: 100%;
+ max-height:100%;
+    overflow: hidden;
+}
+
+
+
+.page-header{
+	text-align:center;
+	background-color:  rgba(73,155,234,1);
+	color:#fff;
+	font-size:25px;
+	padding:10px;
+}
+
+.carousel {
+  height: 300px;
+  margin-bottom:40x;
+}
+
+.carousel-caption {
+  z-index: 10;
+  color:black;
+  font-size:25;
+ position:relative;
+ text-align:center;
+
+}
+
+.carousel .item {
+  height: 300px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 300px;
+}
+
+.sidebar{
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	overflow-y: auto;
+    height: 400px;
+	width: 400px;
+	margin-left: 100px;
+}
+a.list-group-item, button.list-group-item {
+	height: 65px;
+	font-weight: bold;
+}
+.my_div {
+	margin-right: 100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+a.list-group-item, button.list-group-item {
+	padding-top: 21px;
+}

@@ -1,17 +1,4 @@
 <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-<style>
-	body {
-		
-	}
-	ul > li {
-		font-size: 15px;
-	}
-	ul > li > ul > li {
-		
-	}
-	h2 {
-		
-	}
 </style>
 <div style="font-family: 'Open Sans', sans-serif;">
 	<h2 style="text-align: center;">In class project for Database.</h2>
@@ -39,4 +26,7 @@
 			INNER JOIN tweet ON tweetpopularity.tweetId = tweet.tweetId 
 			where favoriteCount != 0 group by favoriteCount limit 10 offset 10
 		</li>
+	</ul>
+	
+	<br><br><br>
 </div>
