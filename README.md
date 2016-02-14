@@ -27,6 +27,13 @@
 			where favoriteCount != 0 group by favoriteCount limit 10 offset 10
 		</li>
 	</ul>
-	
-	<br><br><br>
+	<br><br>
+	<h5>ER Diagram:</h5>
+	![ER Diagram](https://raw.githubusercontent.com/harsh91/twitter-analytics/master/images/er-diagram.png)
+	<br><br>
+	<h5>Screenshots:</h5>
+	![Screenshots](https://raw.githubusercontent.com/harsh91/twitter-analytics/master/images/twitteranalytics1.png)<br><br>
+	![Screenshots](https://raw.githubusercontent.com/harsh91/twitter-analytics/master/images/twitteranalytics2.png)<br><br>
+	![Screenshots](https://raw.githubusercontent.com/harsh91/twitter-analytics/master/images/twitteranalytics3.png)<br><br>
+	![Screenshots](https://raw.githubusercontent.com/harsh91/twitter-analytics/master/images/twitteranalytics4.png)<br><br>
 </div>
