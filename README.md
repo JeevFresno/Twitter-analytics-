@@ -1,3 +1,4 @@
+<style>
 <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 </style>
 <div style="font-family: 'Open Sans', sans-serif;">
@@ -14,8 +15,9 @@
 	<h5>Some of the basic query in here are:</h5>
 	<ul style="font-size: 10px;">
 		<li>
-			SELECT text,retweetCount FROM `tweet` AS t INNER JOIN tweetpopularity AS tp ON t.tweetId = tp.tweetId WHERE NOT tp.retweetCount = 'NULL' AND tp.retweetCount > 1000 AND tp.retweetCount <5000 LIMIT 10
-		</li><br>
+			SELECT text,retweetCount FROM `tweet` AS t INNER JOIN tweetpopularity AS tp ON t.tweetId = tp.tweetId WHERE NOT tp.retweetCount = 'NULL' AND tp.retweetCount > 1000 AND tp.retweetCount 5000 LIMIT 'islessthan' 10
+		</li>
+		<br>
 		<li>
 			SELECT MAX(tweetpopularity.retweetCount) AS MaxRetweetCount, tweet.text from tweet 
 			INNER JOIN tweetpopularity ON tweet.tweetId = tweetpopularity.tweetId GROUP BY tweet.text 
